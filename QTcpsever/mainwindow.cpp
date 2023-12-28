@@ -44,7 +44,7 @@ void MainWindow::readSocket()
     QString HeaderData = DataBuffer.mid(0, 128);
 
     QString Filename = HeaderData.split(",")[0].split(":")[1];
-    QString FileExt = Filename.split("；")[1];
+    QString FileExt = Filename.split(".")[1];
     QString FileSize = HeaderData.split(",")[1].split(":")[1];
 
     DataBuffer = DataBuffer.mid(128);

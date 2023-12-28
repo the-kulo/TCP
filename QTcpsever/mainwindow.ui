@@ -95,12 +95,6 @@
      <height>25</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuQTcpSocket">
-    <property name="title">
-     <string>QTcpSocket</string>
-    </property>
-   </widget>
-   <addaction name="menuQTcpSocket"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
